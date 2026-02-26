@@ -59,11 +59,11 @@ int main() {
     delete danglingPtr;
 
     // NOW DO ONE OF THESE
-    danglingPtr = 0;
-    danglingPtr = NULL;
-    danglingPtr = nullptr;
+    // danglingPtr = 0;
+    // danglingPtr = NULL;
+    // danglingPtr = nullptr;
 
-    cout << danglingPtr << endl; // UNDEFINED BEHAVIOR
+    cout << *danglingPtr << endl; // UNDEFINED BEHAVIOR, weird number
     // MIGHT WORK MIGHT DO SOMETHING BONKERS
 
     // DOING OTHER STUFF FOR LIKE AN HOUR
