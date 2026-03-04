@@ -2,7 +2,7 @@
 using namespace std;
 
 int Barnett() {
-cout << "Banrett" << endl;
+cout << "Barnett" << endl;
 
 }
 
