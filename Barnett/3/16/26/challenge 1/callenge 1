@@ -1,0 +1,16 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+
+arrp[], int sizetarget, int left, int right, int &calls) {}
+
+    calls++; 
+    if (left > right) return -1; 
+
+    int mid = left +(right - left ) / 2;
+
+    if (arr[mid] == target) return mid;
+    
+int RecurBinarSearch(int vector<int>& arr, int target, int &steps )

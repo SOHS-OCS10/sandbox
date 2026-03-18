@@ -1,19 +1,17 @@
+
+
 #include <iostream>
 #include <fstream>
 using namespace std;
 
 int main() {
-    ifstream file1;
-    file1.open("file1.txt");
+
 
     // 1. >> extraction operator
     // 2. you can't stream directly from the file to cout
     //    you have to put in a string first.
 
-    string x;
-    file1 >> x;
-    cout << x << endl;
-    file1.close();
+    std::cout << ios::goodbit << endl;
 
     return 0;
 }
